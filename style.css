@@ -1,0 +1,34 @@
+
+h1 {
+    font-size: 50px; 
+    text-align: center;
+}
+
+p {
+    font-size: 25px; 
+}
+
+h2 {
+    font-size: 38px;
+}
+
+BODY {
+    background-color: grey;
+}
+
+
+#cor {
+    color: white;
+}
+
+  H2 {
+    color: white;
+  }
+
+  h1, h2 {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+}
