@@ -1,34 +1,52 @@
-
-h1 {
-    font-size: 50px; 
-    text-align: center;
+/* Corpo da página */
+body {
+    background-color: grey;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 20px;
 }
 
-p {
-    font-size: 25px; 
+/* Títulos */
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
 }
 
 h2 {
     font-size: 38px;
-}
-
-BODY {
-    background-color: grey;
-}
-
-
-#cor {
     color: white;
 }
 
-  H2 {
-    color: white;
-  }
-
-  h1, h2 {
-    font-family: 'Bebas Neue', sans-serif;
+/* Textos */
+p {
+    font-size: 25px;
+    color: black;
 }
 
-body {
-    font-family: 'Bebas Neue', sans-serif;
+/* Imagem do perfil */
+#midia {
+    width: 95px; 
+    height: 120px;
+    object-fit: cover;
+    border-radius: 50%;
+    float: right;  /* ou left, se preferir */
+    margin: -120px 0 20px 20px; /* topo 0, direita 0, baixo 20px, esquerda 20px */
 }
+
+/* Limpar float para evitar que o texto passe por cima */
+body::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Imagens de projetos */
+.projeto {
+    width: 400px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
