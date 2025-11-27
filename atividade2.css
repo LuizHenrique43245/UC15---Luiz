@@ -1,0 +1,38 @@
+body {
+    background-image: url("teclado.jpg");
+    background-repeat: no-repeat;            /* impede que a imagem se repita */
+    background-size: cover;                  /* faz a imagem ocupar toda a tela */
+}
+
+
+#midia {
+    width: 160px; 
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;  /* ou left, se preferir */
+    margin: 0 auto; /* topo 0, direita 0, baixo 20px, esquerda 20px */
+}
+
+div{
+    background: rgba(0, 0, 0, 0.65);
+    margin: 0 auto;
+    width: 50%;
+    background-position: center;
+    border-radius: 2px;
+    display: block;
+    border: 4px solid rgb(81, 106, 180);
+}
+
+h2{
+    font-size: 30px;
+    margin: center;
+    color: aliceblue;
+    text-align: center;
+}
+
+p{
+    color: aliceblue;
+    font-size: 20px;
+    line-height: 1.5;
+}
